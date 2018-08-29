@@ -258,7 +258,7 @@
 
       test.getBorrower(function(error, results) {
         console.log(web3.eth.defaultAccount);
-        if('0xf97813d9788f742ccea5c113259f81e70c09d7b8' == web3.eth.defaultAccount) {
+        if('0x3D48587aA16D91a2e37198B5B428674bDADdf038' == web3.eth.defaultAccount) {
             console.log('This is borrower');
             var codex = "<center><div id=\"bButton\"><a href=\"/payToLoan/" + thisContract + "\"><button id=\"finishButton\" name=\"finishButton\">Finish Bid (Borrower)</button></a></div></center>";
             document.getElementById('bButton').innerHTML = codex;
